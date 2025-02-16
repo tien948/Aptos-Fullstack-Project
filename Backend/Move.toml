@@ -1,0 +1,12 @@
+[package]
+name = "PropertyToken"
+version = "0.0.1"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[addresses]
+# Set the default account that will deploy the smart contract
+PropertyToken = "0x2ea4f00c416f7e2f20d6a66846b95d23e0da3436bf3e5a74e9d7bacaf7344882"
